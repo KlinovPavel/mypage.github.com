@@ -1,0 +1,19 @@
+﻿body {
+    margin: 0;
+}
+
+header {
+    display: block;
+    background: #DCDCDC; /* ставится колор шапки*/
+}
+
+.header-bg {
+    /* вообще отвечает за размер серой шапки. зависит от колор */
+    height: 60px;
+    text-align: center;
+}
+
+    .header-bg img {
+        position: relative; /* Относительное позиционирование */
+        top: 5px; /* Сдвигаем картинку вниз */
+    }
